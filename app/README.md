@@ -1,21 +1,23 @@
 # app
 
-## Project setup
+## Abra o terminal na pasta do app
+
+## Instale as dependencias
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Inicie o servidor
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Compilar o html
 ```
 npm run build
 ```
 
-### Run your unit tests
+### Rode os testes
 ```
 npm run test:unit
 ```
