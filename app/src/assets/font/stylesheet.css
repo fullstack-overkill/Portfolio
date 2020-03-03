@@ -1,9 +1,11 @@
 @font-face {
     font-family: 'CircularStd';
-    src: url('calibri-7.ttf') format('ttf');
+    src: url('calibri-bold.ttf') format('ttf');
 }
 
 @font-face {
     font-family: 'calibri-bold';
-    src: url('calibri-bold-2.ttf') format('ttf');
+    src: url('calibri-bold.ttf') format('ttf');
 }
+
+@font-face {font-family: "Calibri"; src: url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.eot"); src: url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.woff") format("woff"), url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/6fdb7ab8560e2d00f36fe2622262e9fd.svg#Calibri") format("svg"); }

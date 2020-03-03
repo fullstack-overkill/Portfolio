@@ -6,10 +6,9 @@
 
 <style lang="stylus">
 #app
-  font-family calibri-bold
+  color #FFFFFF
+  font-family Calibri
+  font-size 16px
   -webkit-font-smoothing antialiased
   -moz-osx-font-smoothing grayscale
-  text-align center
-  color #2c3e50
-  margin-top 60px
 </style>
