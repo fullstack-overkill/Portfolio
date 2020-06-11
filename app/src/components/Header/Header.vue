@@ -4,10 +4,10 @@
         {{Logo}}
       </div>
       <nav class="Nav">
-          <div class="Nav-page Selected">Home</div>
-          <div class="Nav-page">skills</div>
-          <div class="Nav-page">About</div>
-          <div class="Nav-page">Experiences</div>
+        <router-link to="/" class="Nav-page Selected">Home</router-link>
+        <router-link to="/" class="Nav-page">skills</router-link>
+        <router-link to="/" class="Nav-page">About</router-link>
+        <router-link to="/" class="Nav-page">Experiences</router-link>
       </nav>
       <div class="btn-contato">
         Contato

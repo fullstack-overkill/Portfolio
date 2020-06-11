@@ -15,9 +15,9 @@
           bring information to everyone. I currently live in Goiânia Goiás
           and have experience in full stack development.
         </div>
-        <div class="see-my-work">
+        <router-link  to="/Portfolio" class="see-my-work">
           PORTFOLIO
-        </div>
+        </router-link>
       </main>
     </div>
   </div>
