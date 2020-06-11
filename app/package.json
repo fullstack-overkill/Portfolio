@@ -42,7 +42,7 @@
     "parserOptions": {
       "parser": "babel-eslint"
     },
-    "rules": {},
+    "rules": {"no-useless-escape":"off"},
     "overrides": [
       {
         "files": [
