@@ -5,8 +5,9 @@
     </div>
     <div class="main-aling">
       <main class="Conteudo">
-        <div class="main-name">hey ! i'm  <strong class="Destaque">Christopher M</strong>.</div>
-        <div class="main-sub">Full stack software Enginner.</div>
+        <div class="logo">{{Logo}}</div>
+        <div class="main-name">Hey ! i'm  <strong class="Destaque">Christopher M</strong>.</div>
+        <div class="main-sub">Full stack <br> software Enginner.</div>
         <div class="main-desc">
           I am passionate about creating and developing software,
           I always try to improve myself and learn new things,
@@ -28,6 +29,11 @@ import Header from "@/components/Header/Header.vue";
 
 export default {
   name: 'Home',
+  data() {
+    return {
+      Logo:"C </>"
+    }
+  },
   components: {
     Header,
   }
