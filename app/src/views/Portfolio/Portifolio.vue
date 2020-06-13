@@ -5,7 +5,19 @@
     </div>
     <div class="main-aling">
       <main class="Conteudo portifolio-container">
-          <PortCard/>
+       
+        <div 
+            v-for="PortifolioItem in Portifolio" 
+            :key="PortifolioItem"  
+            class="card-list-item"
+        >
+            <PortCard
+                :Img="PortifolioItem.img"
+                :Title="PortifolioItem.title"
+                :Desc="PortifolioItem.desc"
+                :CtaLink="PortifolioItem.ctaLink"           
+            />
+        </div>  
       </main>
     </div>
   </div>
@@ -16,11 +28,26 @@
 import Header from "@/components/Header/Header.vue";
 import PortCard from "../../components/PortCard/PortCard.vue";
 
+//Import de imagens
+import img from "../../assets/img/test_img_card.png";
+
 export default {
   name: 'Portifolio',
   data() {
     return {
-      Logo:"C </>"
+      Logo:"C </>",
+      Portifolio: [
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+        {img: img, title:"Loja virtual", desc:"Uma loja virtual para debuatantes", ctaLink:""},
+      ]
     }
   },
   components: {
