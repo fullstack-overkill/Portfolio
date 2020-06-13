@@ -7,7 +7,7 @@
         <router-link to="/" class="Nav-page Selected">Home</router-link>
         <router-link to="/" class="Nav-page">skills</router-link>
         <router-link to="/" class="Nav-page">About</router-link>
-        <router-link to="/" class="Nav-page">Experiences</router-link>
+        <router-link to="/experiences" class="Nav-page">Experiences</router-link>
       </nav>
       <div class="btn-contato">
         Contato
